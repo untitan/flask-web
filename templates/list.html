@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>奔跑的花卷</title>
+</head>
+<body>
+{% for user in userlist %}
+    欢迎：{{ user.name }}
+    年龄：{{ user.age }}
+    分数：{{ user.score }}<p>
+{% endfor %}
+</body>
+</html>
